@@ -1,0 +1,38 @@
+.bar {
+
+}
+
+.bar-text {
+  opacity: 0;
+  transform: translate(0,0);
+  font: 1em sans-serif;
+
+  transition: all 0.3s;
+}
+
+.bar:hover .bar-text {
+  opacity: 1;
+  transform: translate(0,-1em);
+}
+
+.bar-rect {
+  fill: steelblue;
+}
+
+.axis text {
+  font: 10px sans-serif;
+  fill: #000;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.
